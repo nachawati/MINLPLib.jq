@@ -1,0 +1,35 @@
+jsoniq version "1.0";
+
+import module namespace a = "http://dgms.io/modules/analytics";
+
+import module namespace ns = "http://dgms.io/contrib/models/minlplib/ball_mk4_10";
+
+let $input := {
+    "i2": a:variable({ name: "i2", domain: "integer", bounds: [-100.0, null] }),
+    "i3": a:variable({ name: "i3", domain: "integer", bounds: [-100.0, null] }),
+    "i4": a:variable({ name: "i4", domain: "integer", bounds: [-100.0, null] }),
+    "i5": a:variable({ name: "i5", domain: "integer", bounds: [-100.0, null] }),
+    "i6": a:variable({ name: "i6", domain: "integer", bounds: [-100.0, null] }),
+    "i7": a:variable({ name: "i7", domain: "integer", bounds: [-100.0, null] }),
+    "i8": a:variable({ name: "i8", domain: "integer", bounds: [-100.0, null] }),
+    "i9": a:variable({ name: "i9", domain: "integer", bounds: [-100.0, null] }),
+    "i10": a:variable({ name: "i10", domain: "integer", bounds: [-100.0, null] }),
+    "i11": a:variable({ name: "i11", domain: "integer", bounds: [-100.0, null] }),
+    "i12": a:variable({ name: "i12", domain: "integer", bounds: [-100.0, null] }),
+    "i13": a:variable({ name: "i13", domain: "integer", bounds: [-100.0, null] }),
+    "i14": a:variable({ name: "i14", domain: "integer", bounds: [-100.0, null] }),
+    "i15": a:variable({ name: "i15", domain: "integer", bounds: [-100.0, null] }),
+    "i16": a:variable({ name: "i16", domain: "integer", bounds: [-100.0, null] }),
+    "i17": a:variable({ name: "i17", domain: "integer", bounds: [-100.0, null] }),
+    "i18": a:variable({ name: "i18", domain: "integer", bounds: [-100.0, null] }),
+    "i19": a:variable({ name: "i19", domain: "integer", bounds: [-100.0, null] }),
+    "i20": a:variable({ name: "i20", domain: "integer", bounds: [-100.0, null] }),
+    "i21": a:variable({ name: "i21", domain: "integer", bounds: [-100.0, null] })
+} return {
+    "obj": a:minimize({
+        model: ns:ball_mk4_10#1,
+        input: $input,
+        objective: function($output) { $output."obj" },
+        options: { solver: "bonmin" }
+    })
+}

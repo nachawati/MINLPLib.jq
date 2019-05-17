@@ -1,0 +1,143 @@
+jsoniq version "1.0";
+
+module namespace ns = "http://dgms.io/contrib/models/minlplib/kport20";
+
+import module namespace math = "http://www.w3.org/2005/xpath-functions/math";
+
+declare function ns:kport20($input)
+{
+    let $x2 := $input.x2
+    let $x3 := $input.x3
+    let $x4 := $input.x4
+    let $x5 := $input.x5
+    let $x6 := $input.x6
+    let $x7 := $input.x7
+    let $x8 := $input.x8
+    let $x9 := $input.x9
+    let $x10 := $input.x10
+    let $x11 := $input.x11
+    let $x12 := $input.x12
+    let $x13 := $input.x13
+    let $x14 := $input.x14
+    let $x15 := $input.x15
+    let $x16 := $input.x16
+    let $x17 := $input.x17
+    let $x18 := $input.x18
+    let $x19 := $input.x19
+    let $x20 := $input.x20
+    let $x21 := $input.x21
+    let $x22 := $input.x22
+    let $x23 := $input.x23
+    let $x24 := $input.x24
+    let $x25 := $input.x25
+    let $x26 := $input.x26
+    let $x27 := $input.x27
+    let $x28 := $input.x28
+    let $x29 := $input.x29
+    let $x30 := $input.x30
+    let $x31 := $input.x31
+    let $x32 := $input.x32
+    let $x33 := $input.x33
+    let $x34 := $input.x34
+    let $x35 := $input.x35
+    let $x36 := $input.x36
+    let $x37 := $input.x37
+    let $x38 := $input.x38
+    let $x39 := $input.x39
+    let $x40 := $input.x40
+    let $x41 := $input.x41
+    let $x42 := $input.x42
+    let $x43 := $input.x43
+    let $x44 := $input.x44
+    let $x45 := $input.x45
+    let $x46 := $input.x46
+    let $x47 := $input.x47
+    let $x48 := $input.x48
+    let $x49 := $input.x49
+    let $x50 := $input.x50
+    let $x51 := $input.x51
+    let $x52 := $input.x52
+    let $x53 := $input.x53
+    let $x54 := $input.x54
+    let $x55 := $input.x55
+    let $x56 := $input.x56
+    let $x57 := $input.x57
+    let $x58 := $input.x58
+    let $x59 := $input.x59
+    let $x60 := $input.x60
+    let $x61 := $input.x61
+    let $x62 := $input.x62
+    let $b63 := $input.b63
+    let $b64 := $input.b64
+    let $i65 := $input.i65
+    let $i66 := $input.i66
+    let $i67 := $input.i67
+    let $i68 := $input.i68
+    let $i69 := $input.i69
+    let $i70 := $input.i70
+    let $i71 := $input.i71
+    let $i72 := $input.i72
+    let $i73 := $input.i73
+    let $i74 := $input.i74
+    let $i75 := $input.i75
+    let $i76 := $input.i76
+    let $i77 := $input.i77
+    let $i78 := $input.i78
+    let $i79 := $input.i79
+    let $i80 := $input.i80
+    let $i81 := $input.i81
+    let $i82 := $input.i82
+    let $i83 := $input.i83
+    let $i84 := $input.i84
+    let $i85 := $input.i85
+    let $i86 := $input.i86
+    let $i87 := $input.i87
+    let $i88 := $input.i88
+    let $i89 := $input.i89
+    let $i90 := $input.i90
+    let $i91 := $input.i91
+    let $i92 := $input.i92
+    let $i93 := $input.i93
+    let $i94 := $input.i94
+    let $i95 := $input.i95
+    let $i96 := $input.i96
+    let $i97 := $input.i97
+    let $i98 := $input.i98
+    let $i99 := $input.i99
+    let $i100 := $input.i100
+    let $i101 := $input.i101
+    let $i102 := $input.i102
+    return {
+        "obj": ($x2 + $x3),
+        "constraints": {
+            "e2": (($x3 - (2.45 * $b63)) - (2.45 * $b64)) = 0.0,
+            "e3": -(((0.98488578017961 * math:pow($x42, 0.5)) + (0.98488578017961 * math:pow($x43, 0.5))) + $x2) = 0.0,
+            "e4": -((((((((((((((((((((168.0 * $b63) + (6.0 * $i65)) + (6.0 * $i66)) + (6.0 * $i67)) + (6.0 * $i68)) + (6.0 * $i69)) + (6.0 * $i70)) + (6.0 * $i71)) + (6.0 * $i72)) + (6.0 * $i73)) + (6.0 * $i74)) + (6.0 * $i75)) + (6.0 * $i76)) + (6.0 * $i77)) + (6.0 * $i78)) + (6.0 * $i79)) + (6.0 * $i80)) + (6.0 * $i81)) + (6.0 * $i82)) + (6.0 * $i83)) <= 0.0,
+            "e5": -((((((((((((((((((((168.0 * $b64) + (6.0 * $i84)) + (6.0 * $i85)) + (6.0 * $i86)) + (6.0 * $i87)) + (6.0 * $i88)) + (6.0 * $i89)) + (6.0 * $i90)) + (6.0 * $i91)) + (6.0 * $i92)) + (6.0 * $i93)) + (6.0 * $i94)) + (6.0 * $i95)) + (6.0 * $i96)) + (6.0 * $i97)) + (6.0 * $i98)) + (6.0 * $i99)) + (6.0 * $i100)) + (6.0 * $i101)) + (6.0 * $i102)) <= 0.0,
+            "e6": -((3.84615384615385E-4 * ((($i65 * $x4) * $x42) + (($i84 * $x23) * $x43))) + $x44) = -1.0,
+            "e7": -((4.34782608695652E-4 * ((($i66 * $x5) * $x42) + (($i85 * $x24) * $x43))) + $x45) = -1.0,
+            "e8": -((5.88235294117647E-4 * ((($i67 * $x6) * $x42) + (($i86 * $x25) * $x43))) + $x46) = -1.0,
+            "e9": -((0.00188679245283019 * ((($i68 * $x7) * $x42) + (($i87 * $x26) * $x43))) + $x47) = -1.0,
+            "e10": -((0.00188679245283019 * ((($i69 * $x8) * $x42) + (($i88 * $x27) * $x43))) + $x48) = -1.0,
+            "e11": -((0.00357142857142857 * ((($i70 * $x9) * $x42) + (($i89 * $x28) * $x43))) + $x49) = -1.0,
+            "e12": -((0.004 * ((($i71 * $x10) * $x42) + (($i90 * $x29) * $x43))) + $x50) = -1.0,
+            "e13": -((0.00434782608695652 * ((($i72 * $x11) * $x42) + (($i91 * $x30) * $x43))) + $x51) = -1.0,
+            "e14": -((0.00625 * ((($i73 * $x12) * $x42) + (($i92 * $x31) * $x43))) + $x52) = -1.0,
+            "e15": -((0.0111111111111111 * ((($i74 * $x13) * $x42) + (($i93 * $x32) * $x43))) + $x53) = -1.0,
+            "e16": -((0.0142857142857143 * ((($i75 * $x14) * $x42) + (($i94 * $x33) * $x43))) + $x54) = -1.0,
+            "e17": -((0.00256410256410256 * ((($i76 * $x15) * $x42) + (($i95 * $x34) * $x43))) + $x55) = -1.0,
+            "e18": -((0.004 * ((($i77 * $x16) * $x42) + (($i96 * $x35) * $x43))) + $x56) = -1.0,
+            "e19": -((0.00625 * ((($i78 * $x17) * $x42) + (($i97 * $x36) * $x43))) + $x57) = -1.0,
+            "e20": -((0.01 * ((($i79 * $x18) * $x42) + (($i98 * $x37) * $x43))) + $x58) = -1.0,
+            "e21": -((0.0142857142857143 * ((($i80 * $x19) * $x42) + (($i99 * $x38) * $x43))) + $x59) = -1.0,
+            "e22": -((0.02 * ((($i81 * $x20) * $x42) + (($i100 * $x39) * $x43))) + $x60) = -1.0,
+            "e23": -((0.02 * ((($i82 * $x21) * $x42) + (($i101 * $x40) * $x43))) + $x61) = -1.0,
+            "e24": -((0.02 * ((($i83 * $x22) * $x42) + (($i102 * $x41) * $x43))) + $x62) = -1.0,
+            "e25": ($x42 - (102.14 * $b63)) >= 0.0,
+            "e26": ($x43 - (176.07 * $b64)) >= 0.0,
+            "e27": ($x42 - (250.0 * $b63)) <= 0.0,
+            "e28": ($x43 - (250.0 * $b64)) <= 0.0
+        }
+    }
+};
+

@@ -1,0 +1,131 @@
+jsoniq version "1.0";
+
+module namespace ns = "http://dgms.io/contrib/models/minlplib/tspn12";
+
+import module namespace math = "http://www.w3.org/2005/xpath-functions/math";
+
+declare function ns:tspn12($input)
+{
+    let $x1 := $input.x1
+    let $x2 := $input.x2
+    let $x3 := $input.x3
+    let $x4 := $input.x4
+    let $x5 := $input.x5
+    let $x6 := $input.x6
+    let $x7 := $input.x7
+    let $x8 := $input.x8
+    let $x9 := $input.x9
+    let $x10 := $input.x10
+    let $x11 := $input.x11
+    let $x12 := $input.x12
+    let $x13 := $input.x13
+    let $x14 := $input.x14
+    let $x15 := $input.x15
+    let $x16 := $input.x16
+    let $x17 := $input.x17
+    let $x18 := $input.x18
+    let $x19 := $input.x19
+    let $x20 := $input.x20
+    let $x21 := $input.x21
+    let $x22 := $input.x22
+    let $x23 := $input.x23
+    let $x24 := $input.x24
+    let $b25 := $input.b25
+    let $b26 := $input.b26
+    let $b27 := $input.b27
+    let $b28 := $input.b28
+    let $b29 := $input.b29
+    let $b30 := $input.b30
+    let $b31 := $input.b31
+    let $b32 := $input.b32
+    let $b33 := $input.b33
+    let $b34 := $input.b34
+    let $b35 := $input.b35
+    let $b36 := $input.b36
+    let $b37 := $input.b37
+    let $b38 := $input.b38
+    let $b39 := $input.b39
+    let $b40 := $input.b40
+    let $b41 := $input.b41
+    let $b42 := $input.b42
+    let $b43 := $input.b43
+    let $b44 := $input.b44
+    let $b45 := $input.b45
+    let $b46 := $input.b46
+    let $b47 := $input.b47
+    let $b48 := $input.b48
+    let $b49 := $input.b49
+    let $b50 := $input.b50
+    let $b51 := $input.b51
+    let $b52 := $input.b52
+    let $b53 := $input.b53
+    let $b54 := $input.b54
+    let $b55 := $input.b55
+    let $b56 := $input.b56
+    let $b57 := $input.b57
+    let $b58 := $input.b58
+    let $b59 := $input.b59
+    let $b60 := $input.b60
+    let $b61 := $input.b61
+    let $b62 := $input.b62
+    let $b63 := $input.b63
+    let $b64 := $input.b64
+    let $b65 := $input.b65
+    let $b66 := $input.b66
+    let $b67 := $input.b67
+    let $b68 := $input.b68
+    let $b69 := $input.b69
+    let $b70 := $input.b70
+    let $b71 := $input.b71
+    let $b72 := $input.b72
+    let $b73 := $input.b73
+    let $b74 := $input.b74
+    let $b75 := $input.b75
+    let $b76 := $input.b76
+    let $b77 := $input.b77
+    let $b78 := $input.b78
+    let $b79 := $input.b79
+    let $b80 := $input.b80
+    let $b81 := $input.b81
+    let $b82 := $input.b82
+    let $b83 := $input.b83
+    let $b84 := $input.b84
+    let $b85 := $input.b85
+    let $b86 := $input.b86
+    let $b87 := $input.b87
+    let $b88 := $input.b88
+    let $b89 := $input.b89
+    let $b90 := $input.b90
+    return {
+        "obj": ((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((math:sqrt((math:pow(($x1 - $x3), 2.0) + math:pow(($x2 - $x4), 2.0))) * $b25) + (math:sqrt((math:pow(($x1 - $x5), 2.0) + math:pow(($x2 - $x6), 2.0))) * $b26)) + (math:sqrt((math:pow(($x1 - $x7), 2.0) + math:pow(($x2 - $x8), 2.0))) * $b27)) + (math:sqrt((math:pow(($x1 - $x9), 2.0) + math:pow(($x2 - $x10), 2.0))) * $b28)) + (math:sqrt((math:pow(($x1 - $x11), 2.0) + math:pow(($x2 - $x12), 2.0))) * $b29)) + (math:sqrt((math:pow(($x1 - $x13), 2.0) + math:pow(($x2 - $x14), 2.0))) * $b30)) + (math:sqrt((math:pow(($x1 - $x15), 2.0) + math:pow(($x2 - $x16), 2.0))) * $b31)) + (math:sqrt((math:pow(($x1 - $x17), 2.0) + math:pow(($x2 - $x18), 2.0))) * $b32)) + (math:sqrt((math:pow(($x1 - $x19), 2.0) + math:pow(($x2 - $x20), 2.0))) * $b33)) + (math:sqrt((math:pow(($x1 - $x21), 2.0) + math:pow(($x2 - $x22), 2.0))) * $b34)) + (math:sqrt((math:pow(($x1 - $x23), 2.0) + math:pow(($x2 - $x24), 2.0))) * $b35)) + (math:sqrt((math:pow(($x3 - $x5), 2.0) + math:pow(($x4 - $x6), 2.0))) * $b36)) + (math:sqrt((math:pow(($x3 - $x7), 2.0) + math:pow(($x4 - $x8), 2.0))) * $b37)) + (math:sqrt((math:pow(($x3 - $x9), 2.0) + math:pow(($x4 - $x10), 2.0))) * $b38)) + (math:sqrt((math:pow(($x3 - $x11), 2.0) + math:pow(($x4 - $x12), 2.0))) * $b39)) + (math:sqrt((math:pow(($x3 - $x13), 2.0) + math:pow(($x4 - $x14), 2.0))) * $b40)) + (math:sqrt((math:pow(($x3 - $x15), 2.0) + math:pow(($x4 - $x16), 2.0))) * $b41)) + (math:sqrt((math:pow(($x3 - $x17), 2.0) + math:pow(($x4 - $x18), 2.0))) * $b42)) + (math:sqrt((math:pow(($x3 - $x19), 2.0) + math:pow(($x4 - $x20), 2.0))) * $b43)) + (math:sqrt((math:pow(($x3 - $x21), 2.0) + math:pow(($x4 - $x22), 2.0))) * $b44)) + (math:sqrt((math:pow(($x3 - $x23), 2.0) + math:pow(($x4 - $x24), 2.0))) * $b45)) + (math:sqrt((math:pow(($x5 - $x7), 2.0) + math:pow(($x6 - $x8), 2.0))) * $b46)) + (math:sqrt((math:pow(($x5 - $x9), 2.0) + math:pow(($x6 - $x10), 2.0))) * $b47)) + (math:sqrt((math:pow(($x5 - $x11), 2.0) + math:pow(($x6 - $x12), 2.0))) * $b48)) + (math:sqrt((math:pow(($x5 - $x13), 2.0) + math:pow(($x6 - $x14), 2.0))) * $b49)) + (math:sqrt((math:pow(($x5 - $x15), 2.0) + math:pow(($x6 - $x16), 2.0))) * $b50)) + (math:sqrt((math:pow(($x5 - $x17), 2.0) + math:pow(($x6 - $x18), 2.0))) * $b51)) + (math:sqrt((math:pow(($x5 - $x19), 2.0) + math:pow(($x6 - $x20), 2.0))) * $b52)) + (math:sqrt((math:pow(($x5 - $x21), 2.0) + math:pow(($x6 - $x22), 2.0))) * $b53)) + (math:sqrt((math:pow(($x5 - $x23), 2.0) + math:pow(($x6 - $x24), 2.0))) * $b54)) + (math:sqrt((math:pow(($x7 - $x9), 2.0) + math:pow(($x8 - $x10), 2.0))) * $b55)) + (math:sqrt((math:pow(($x7 - $x11), 2.0) + math:pow(($x8 - $x12), 2.0))) * $b56)) + (math:sqrt((math:pow(($x7 - $x13), 2.0) + math:pow(($x8 - $x14), 2.0))) * $b57)) + (math:sqrt((math:pow(($x7 - $x15), 2.0) + math:pow(($x8 - $x16), 2.0))) * $b58)) + (math:sqrt((math:pow(($x7 - $x17), 2.0) + math:pow(($x8 - $x18), 2.0))) * $b59)) + (math:sqrt((math:pow(($x7 - $x19), 2.0) + math:pow(($x8 - $x20), 2.0))) * $b60)) + (math:sqrt((math:pow(($x7 - $x21), 2.0) + math:pow(($x8 - $x22), 2.0))) * $b61)) + (math:sqrt((math:pow(($x7 - $x23), 2.0) + math:pow(($x8 - $x24), 2.0))) * $b62)) + (math:sqrt((math:pow(($x9 - $x11), 2.0) + math:pow(($x10 - $x12), 2.0))) * $b63)) + (math:sqrt((math:pow(($x9 - $x13), 2.0) + math:pow(($x10 - $x14), 2.0))) * $b64)) + (math:sqrt((math:pow(($x9 - $x15), 2.0) + math:pow(($x10 - $x16), 2.0))) * $b65)) + (math:sqrt((math:pow(($x9 - $x17), 2.0) + math:pow(($x10 - $x18), 2.0))) * $b66)) + (math:sqrt((math:pow(($x9 - $x19), 2.0) + math:pow(($x10 - $x20), 2.0))) * $b67)) + (math:sqrt((math:pow(($x9 - $x21), 2.0) + math:pow(($x10 - $x22), 2.0))) * $b68)) + (math:sqrt((math:pow(($x9 - $x23), 2.0) + math:pow(($x10 - $x24), 2.0))) * $b69)) + (math:sqrt((math:pow(($x11 - $x13), 2.0) + math:pow(($x12 - $x14), 2.0))) * $b70)) + (math:sqrt((math:pow(($x11 - $x15), 2.0) + math:pow(($x12 - $x16), 2.0))) * $b71)) + (math:sqrt((math:pow(($x11 - $x17), 2.0) + math:pow(($x12 - $x18), 2.0))) * $b72)) + (math:sqrt((math:pow(($x11 - $x19), 2.0) + math:pow(($x12 - $x20), 2.0))) * $b73)) + (math:sqrt((math:pow(($x11 - $x21), 2.0) + math:pow(($x12 - $x22), 2.0))) * $b74)) + (math:sqrt((math:pow(($x11 - $x23), 2.0) + math:pow(($x12 - $x24), 2.0))) * $b75)) + (math:sqrt((math:pow(($x13 - $x15), 2.0) + math:pow(($x14 - $x16), 2.0))) * $b76)) + (math:sqrt((math:pow(($x13 - $x17), 2.0) + math:pow(($x14 - $x18), 2.0))) * $b77)) + (math:sqrt((math:pow(($x13 - $x19), 2.0) + math:pow(($x14 - $x20), 2.0))) * $b78)) + (math:sqrt((math:pow(($x13 - $x21), 2.0) + math:pow(($x14 - $x22), 2.0))) * $b79)) + (math:sqrt((math:pow(($x13 - $x23), 2.0) + math:pow(($x14 - $x24), 2.0))) * $b80)) + (math:sqrt((math:pow(($x15 - $x17), 2.0) + math:pow(($x16 - $x18), 2.0))) * $b81)) + (math:sqrt((math:pow(($x15 - $x19), 2.0) + math:pow(($x16 - $x20), 2.0))) * $b82)) + (math:sqrt((math:pow(($x15 - $x21), 2.0) + math:pow(($x16 - $x22), 2.0))) * $b83)) + (math:sqrt((math:pow(($x15 - $x23), 2.0) + math:pow(($x16 - $x24), 2.0))) * $b84)) + (math:sqrt((math:pow(($x17 - $x19), 2.0) + math:pow(($x18 - $x20), 2.0))) * $b85)) + (math:sqrt((math:pow(($x17 - $x21), 2.0) + math:pow(($x18 - $x22), 2.0))) * $b86)) + (math:sqrt((math:pow(($x17 - $x23), 2.0) + math:pow(($x18 - $x24), 2.0))) * $b87)) + (math:sqrt((math:pow(($x19 - $x21), 2.0) + math:pow(($x20 - $x22), 2.0))) * $b88)) + (math:sqrt((math:pow(($x19 - $x23), 2.0) + math:pow(($x20 - $x24), 2.0))) * $b89)) + (math:sqrt((math:pow(($x21 - $x23), 2.0) + math:pow(($x22 - $x24), 2.0))) * $b90)),
+        "constraints": {
+            "e2": ((((0.013840830449827 * math:pow($x1, 2.0)) - (0.235294117647059 * $x1)) + (0.0177777777777778 * math:pow($x2, 2.0))) - (2.00888888888889 * $x2)) <= -56.7511111111111,
+            "e3": ((((0.013840830449827 * math:pow($x3, 2.0)) - (3.05882352941176 * $x3)) + (0.0625 * math:pow($x4, 2.0))) - (5.75 * $x4)) <= -300.25,
+            "e4": ((((0.0204081632653061 * math:pow($x5, 2.0)) - (1.3469387755102 * $x5)) + (0.0110803324099723 * math:pow($x6, 2.0))) - (1.65096952908587 * $x6)) <= -82.7231047543671,
+            "e5": ((((0.0090702947845805 * math:pow($x7, 2.0)) - (0.299319727891156 * $x7)) + (0.0277777777777778 * math:pow($x8, 2.0))) - (4.44444444444444 * $x8)) <= -179.24716553288,
+            "e6": ((((0.0277777777777778 * math:pow($x9, 2.0)) - (2.16666666666667 * $x9)) + (0.015625 * math:pow($x10, 2.0))) - (1.40625 * $x10)) <= -72.890625,
+            "e7": ((((0.0110803324099723 * math:pow($x11, 2.0)) - (2.29362880886427 * $x11)) + (0.0204081632653061 * math:pow($x12, 2.0))) - (0.285714285714286 * $x12)) <= -118.695290858726,
+            "e8": ((((0.0110803324099723 * math:pow($x13, 2.0)) - (2.27146814404432 * $x13)) + (0.0204081632653061 * math:pow($x14, 2.0))) - (2.57142857142857 * $x14)) <= -196.412742382271,
+            "e9": ((((0.0330578512396694 * math:pow($x15, 2.0)) - (4.72727272727273 * $x15)) + (0.0493827160493827 * math:pow($x16, 2.0))) - (9.03703703703704 * $x16)) <= -581.444444444444,
+            "e10": ((((0.0493827160493827 * math:pow($x17, 2.0)) - (5.48148148148148 * $x17)) + (0.0204081632653061 * math:pow($x18, 2.0))) - (0.775510204081633 * $x18)) <= -158.478458049887,
+            "e11": ((((0.00591715976331361 * math:pow($x19, 2.0)) - (0.733727810650888 * $x19)) + (0.0236686390532544 * math:pow($x20, 2.0))) - (2.24852071005917 * $x20)) <= -75.1479289940828,
+            "e12": ((((0.0330578512396694 * math:pow($x21, 2.0)) - (1.48760330578512 * $x21)) + (0.0123456790123457 * math:pow($x22, 2.0))) - (0.839506172839506 * $x22)) <= -30.0071421283542,
+            "e13": ((((0.0277777777777778 * math:pow($x23, 2.0)) - (5.44444444444444 * $x23)) + (0.0493827160493827 * math:pow($x24, 2.0))) - (8.24691358024691 * $x24)) <= -610.086419753086,
+            "e14": (((((((((($b25 + $b26) + $b27) + $b28) + $b29) + $b30) + $b31) + $b32) + $b33) + $b34) + $b35) = 2.0,
+            "e15": (((((((((($b25 + $b36) + $b37) + $b38) + $b39) + $b40) + $b41) + $b42) + $b43) + $b44) + $b45) = 2.0,
+            "e16": (((((((((($b26 + $b36) + $b46) + $b47) + $b48) + $b49) + $b50) + $b51) + $b52) + $b53) + $b54) = 2.0,
+            "e17": (((((((((($b27 + $b37) + $b46) + $b55) + $b56) + $b57) + $b58) + $b59) + $b60) + $b61) + $b62) = 2.0,
+            "e18": (((((((((($b28 + $b38) + $b47) + $b55) + $b63) + $b64) + $b65) + $b66) + $b67) + $b68) + $b69) = 2.0,
+            "e19": (((((((((($b29 + $b39) + $b48) + $b56) + $b63) + $b70) + $b71) + $b72) + $b73) + $b74) + $b75) = 2.0,
+            "e20": (((((((((($b30 + $b40) + $b49) + $b57) + $b64) + $b70) + $b76) + $b77) + $b78) + $b79) + $b80) = 2.0,
+            "e21": (((((((((($b31 + $b41) + $b50) + $b58) + $b65) + $b71) + $b76) + $b81) + $b82) + $b83) + $b84) = 2.0,
+            "e22": (((((((((($b32 + $b42) + $b51) + $b59) + $b66) + $b72) + $b77) + $b81) + $b85) + $b86) + $b87) = 2.0,
+            "e23": (((((((((($b33 + $b43) + $b52) + $b60) + $b67) + $b73) + $b78) + $b82) + $b85) + $b88) + $b89) = 2.0,
+            "e24": (((((((((($b34 + $b44) + $b53) + $b61) + $b68) + $b74) + $b79) + $b83) + $b86) + $b88) + $b90) = 2.0,
+            "e25": (((((((((($b35 + $b45) + $b54) + $b62) + $b69) + $b75) + $b80) + $b84) + $b87) + $b89) + $b90) = 2.0,
+            "e26": ((((($b26 + $b27) + $b34) + $b46) + $b53) + $b61) <= 3.0,
+            "e27": (($b26 + $b27) + $b46) <= 2.0
+        }
+    }
+};
+
