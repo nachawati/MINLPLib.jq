@@ -1,0 +1,18 @@
+{
+	"name": "minlplib.jq",
+	"version": "0.0.1",
+	"description": "MINLPLib.jq is a JSONiq library of Mixed-Integer and Continuous Nonlinear Programming Instances in the native DGAL format.",
+	"keywords": [ "analytics", "decision guidance", "optimization", "jsoniq", "dgal" ],
+	"engines" : { "unity" : "~0.1.0" },
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nachawati/MINLPLib.jq.git"
+	},
+	"license": "SEE LICENSE IN COPYING",
+	"bugs": {
+		"url": "https://github.com/nachawati/MINLPLib.jq/issues"
+	}
+}
