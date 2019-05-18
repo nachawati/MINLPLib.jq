@@ -1,6 +1,6 @@
 {
 	"name": "minlplib.jq",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "MINLPLib.jq is a JSONiq library of Mixed-Integer and Continuous Nonlinear Programming Instances in the native DGAL format.",
 	"keywords": [
 		"analytics",
